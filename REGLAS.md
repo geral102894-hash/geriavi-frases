@@ -39,5 +39,5 @@ Usa dialogo cuando la escena lo pida, con cualquier tipo de humor. Las frases de
 Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
 
 ## Estado
-- El lote del 3 de noviembre de 2026 ya está programado con aprobación de Geri (7 imágenes). Si la tarea corre ese día, no prepares otro lote: revisa con getScheduledPosts, confirma a Geri en una línea y termina.
-- Desde el 4 de noviembre, prepara lotes nuevos de 5 según estas reglas, sin repetir usadas.json. Cada lote se muestra y espera su "publica".
+- Geri aprobó las 7 imágenes de lotes/2026-11-03 y está decidiendo cuántas publicar por día. Revisa getScheduledPosts: si ya están programadas, confirma en una línea y termina. Si no, no crees frases nuevas: muéstrale esas 7 y pregúntale cuántas publica hoy. Los pies de foto y el orden están en esa carpeta por número: 01 Para la que hoy se comparó con alguien. / 02 Cuéntame por qué. / 03 ¿Solo a mí me pasa? / 04 Siempre vuelve a él. / 05 ¿Cuántas te tocaron? / 06 La calma también es una respuesta. / 07 Esto es para ti.
+- Cuando se acaben esas 7, prepara lotes nuevos según la cantidad que Geri elija según estas reglas, sin repetir usadas.json. Cada lote se muestra y espera su "publica".
