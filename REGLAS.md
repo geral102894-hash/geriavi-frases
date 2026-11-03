@@ -32,8 +32,8 @@ Si una hora ya pasó al aprobar, usa la siguiente disponible con al menos 45 min
 - Hipótesis a probar: la escena familiar concreta supera a la frase motivacional. No es una conclusión.
 
 ## Formato adicional
-Además de los formatos listados en la tarea, existe f="dialogo": t es un título corto; items son 2 a 4 líneas "Mamá: ..." y "Yo: ...", máximo 9 palabras por línea, con remate al final.
+Además de los formatos listados en la tarea, existe f="dialogo": t es un título corto; items son 1 a 4 líneas "Mamá: ..." y "Yo: ...", máximo 9 palabras por línea, con remate al final.
 Cada lote de 5 lleva al menos 1 dialogo. Las frases de la serie del hijo favorito son ficción de humor, no datos de la familia de Geri.
 
 ## Voz
-Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "¡Mamá, me ascendieron!" / "¿Y tu hermano ya comió?".
+Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
