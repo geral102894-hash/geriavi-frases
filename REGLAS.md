@@ -40,7 +40,6 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 
 ## Aprobadas por Geri
 - Lote del 3 de noviembre de 2026: incluir sí o sí la conversación f="dialogo", t="Yo llamando a mi mamá *a contarle algo de mí:*", items=["Mamá: ¿Y tu hermano ya comió?"], c="Siempre vuelve a él.", a las 12:00 p. m.
-- Geri ya aprobó estas frases del banco GERI_BANK (motor/index.html). Úsalas primero, sin repetir, con su formato y pie de foto del banco, antes de escribir frases nuevas:
-  Lote del 3 de noviembre, junto con la conversación anterior: "Mi mamá me llama para saber de mí", "No estás atrasada", "Mi inglés es perfecto", "¿Cuál es peor?".
-  Lote del 4 de noviembre: "Mi mamá por videollamada", "Señales de que ya llegaste a tus 30", "Ya no me enojo", "Si hoy solo pudiste levantarte", "En tu casa, la favorita o el favorito es".
-  Aun así, muestra cada lote y espera su "publica".
+- Geri aprobó solo la serie de mamá: "Mi mamá me llama para saber de mí y termina hablándome de su hijo favorito" y "En tu casa, la favorita o el favorito es". Van en el lote del 3 de noviembre junto con la conversación anterior.
+- Completa ese lote con otras 2 frases de mamá y el hijo favorito del banco o nuevas. Las frases de otros temas no están aprobadas: solo van si Geri las acepta al revisar.
+- Muestra cada lote y espera su "publica".
