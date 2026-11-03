@@ -84,7 +84,7 @@ h2{font:400 26px var(--display);margin:0}
 
   const FORMATS = {
     verdad: 'La verdad', indirecta: 'Indirecta', latina: 'Latina en EE. UU.',
-    lista: 'Lista corta', nota: 'Nota para mí', pregunta: 'Esto o aquello'
+    lista: 'Lista corta', nota: 'Nota para mí', pregunta: 'Esto o aquello', dialogo: 'Conversación'
   };
 
   function tokens(text) {
@@ -212,6 +212,22 @@ h2{font:400 26px var(--display);margin:0}
       text(ctx, it.t, { x: 118, y: 240, w: W - 236, h: 840 }, { font: BODY, weight: 500, max: 84, min: 46, color: C.wine, em: C.rose, lh: 1.24 });
       foot(ctx, C.pink);
     },
+    // Conversación: escena familiar en burbujas propias; items = ['Mamá: ...', 'Yo: ...'].
+    dialogo(ctx, it) {
+      bg(ctx, C.pink);
+      label(ctx, FORMATS.dialogo, M, 130, C.wine);
+      text(ctx, it.t, { x: M, y: 160, w: W - M * 2, h: 190 }, { font: DISPLAY, max: 84, min: 54, color: C.wine, em: C.rose, lh: 1.06, valign: 'top' });
+      const items = it.items || [], top = 370, bottom = H - 130, gap = 26;
+      const h = (bottom - top - gap * (items.length - 1)) / Math.max(items.length, 1);
+      items.forEach((raw, i) => {
+        const m = String(raw).match(/^([^:]{1,14}):\s*(.*)$/), who = m ? m[1] : '', say = m ? m[2] : raw;
+        const me = /^yo$/i.test(who.trim()), bw = W - 240, x = me ? W - 64 - bw : 64, y = top + (h + gap) * i;
+        ctx.fillStyle = me ? C.wine : C.white; rr(ctx, x, y, bw, h, 34); ctx.fill();
+        label(ctx, who, x + 36, y + 52, me ? C.pink : C.rose);
+        text(ctx, say, { x: x + 36, y: y + 66, w: bw - 72, h: h - 90 }, { font: DISPLAY, max: 62, min: 36, color: me ? C.white : C.wine, lh: 1.12 });
+      });
+      foot(ctx, C.wine);
+    },
     // Dos mitades que obligan a elegir.
     pregunta(ctx, it) {
       const [a, b] = it.items && it.items.length > 1 ? it.items : ['Opción A', 'Opción B'];
@@ -277,6 +293,10 @@ window.GERI_BANK = [
 {f:'nota',t:'Le pregunté a mi mamá quién era su favorito. Me dijo: *“los quiero igual”.* Y le sirvió primero a él.',c:'Las mamás y sus misterios.'},
 {f:'pregunta',t:'En tu casa, *la favorita o el favorito es:*',items:['Yo, y lo sé','Mi hermano, siempre'],c:'Aquí nadie te juzga.'},
 
+{f:'dialogo',t:'Llamar a mi mamá *para contarle algo:*',items:['Yo: Mami, ¡me ascendieron!','Mamá: Qué bueno. ¿Ya llamaste a tu hermano?','Yo: Mami, hablemos de mí.','Mamá: Es que él está tan delgadito.'],c:'Siempre vuelve a él.'},
+{f:'dialogo',t:'Una mamá latina *cuando llegas de visita:*',items:['Mamá: ¿Ya comiste?','Yo: Sí, mami, ya comí.','Mamá: Bueno, te sirvo poquito.','Yo: Eso no es poquito.'],c:'Nadie se salva del plato.'},
+{f:'dialogo',t:'Mi mamá *sobre el favorito:*',items:['Yo: ¿Quién es tu favorito?','Mamá: A todos los quiero igual.','Yo: ¿Y por qué él tiene su foto en la sala?','Mamá: Porque salió bonito.'],c:'Las pruebas están en la sala.'},
+{f:'dialogo',t:'*Lo que dice mamá* cuando estoy enferma:',items:['Yo: Mami, tengo gripa.','Mamá: Por andar descalza.','Yo: Vivo en otro país, mami.','Mamá: Allá también hay piso.'],c:'Ninguna ciencia le gana.'},
 {f:'lista',t:'Señales de que *ya llegaste a tus 30*',items:['Te emociona una buena almohada','Cancelar planes es tu plan favorito','Lees los ingredientes de todo','Te duele algo y no sabes por qué'],c:'¿Cuántas te tocaron?'},
 {f:'lista',t:'Cosas que *ya no explico*',items:['Por qué no contesto rápido','Por qué no fui','Por qué me alejé','Por qué elegí estar tranquila'],c:'La lista sigue creciendo.'},
 {f:'lista',t:'Lujos de *mujer adulta*',items:['Sábanas limpias un domingo','Decir “no puedo” sin dar excusas','Una tarde sin notificaciones','Salir temprano y sin culpa'],c:'¿Qué le agregarías?'},
@@ -334,9 +354,9 @@ function preview(){ const it=lot[sel]; if(!it)return; const c=document.createEle
 function edit(){
   const it=lot[sel]; if(!it)return;
   $('fmt').value=it.f; $('txt').value=it.t; $('its').value=(it.items||[]).join('\n'); $('cap').value=it.c||'';
-  $('itsL').hidden=!['lista','pregunta'].includes(it.f); preview();
+  $('itsL').hidden=!['lista','pregunta','dialogo'].includes(it.f); preview();
 }
-$('fmt').onchange=e=>{lot[sel].f=e.target.value; $('itsL').hidden=!['lista','pregunta'].includes(e.target.value); render()};
+$('fmt').onchange=e=>{lot[sel].f=e.target.value; $('itsL').hidden=!['lista','pregunta','dialogo'].includes(e.target.value); render()};
 $('txt').oninput=e=>{lot[sel].t=e.target.value;preview()};
 $('its').oninput=e=>{lot[sel].items=e.target.value.split('\n').filter(s=>s.trim());preview()};
 $('cap').oninput=e=>{lot[sel].c=e.target.value};

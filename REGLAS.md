@@ -25,3 +25,12 @@ Máximo 10 palabras, sin hashtags ni enlaces. Una pregunta real solo cuando resp
 - Sábado: 10:00, 11:00, 12:00, 14:00 y 18:00.
 - Domingo: 10:00, 12:00, 15:00, 17:00 y 18:00.
 Si una hora ya pasó al aprobar, usa la siguiente disponible con al menos 45 minutos entre publicaciones.
+
+## Lo observado en Facebook (2 de noviembre de 2026, muestra muy pequeña)
+- La Casa de Mamá (193K, comedia familiar latina): un video con 4.7K reacciones, 222 comentarios y 133 compartidos; sus imágenes llevan personas con etiquetas grandes de texto.
+- Frases de Mujeres (107K): imagen con pregunta abierta, 12 reacciones, 10 comentarios y 1 compartido. Publica retos y preguntas tanto como frases.
+- Hipótesis a probar: la escena familiar concreta supera a la frase motivacional. No es una conclusión.
+
+## Formato adicional
+Además de los formatos listados en la tarea, existe f="dialogo": t es un título corto; items son 2 a 4 líneas "Mamá: ..." y "Yo: ...", máximo 9 palabras por línea, con remate al final.
+Cada lote de 5 lleva al menos 1 dialogo. Las frases de la serie del hijo favorito son ficción de humor, no datos de la familia de Geri.
