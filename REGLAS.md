@@ -37,3 +37,6 @@ Cada lote de 5 lleva al menos 1 dialogo. Las frases de la serie del hijo favorit
 
 ## Voz
 Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
+
+## Aprobadas por Geri
+- Lote del 3 de noviembre de 2026: incluir sí o sí la conversación f="dialogo", t="Yo llamando a mi mamá *a contarle algo de mí:*", items=["Mamá: ¿Y tu hermano ya comió?"], c="Siempre vuelve a él.", a las 12:00 p. m.
