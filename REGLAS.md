@@ -8,11 +8,11 @@ Evidencia: Meta degrada pedir reacciones, comentarios, etiquetas o compartir; ta
 3. Prueba del pulgar: máximo 16 palabras en la frase principal; se entiende en miniatura.
 
 ## Prioridad del lote de 5
-- 2 de humor familiar latino (serie mamá y hijo favorito, hermanos, tías, regaños).
-- 1 de vida latina en EE. UU. o Spanglish.
-- 1 de relaciones, límites o indirecta.
-- 1 de "Esto o aquello" o lista, o una nota emotiva. Máximo 1 reflexión genérica.
-- Las frases de fechas del momento van primero si hay una fecha cercana.
+Geri quiere humor de tipos diferentes, no solo familiar.
+- 4 de humor, cada una de un tipo distinto: pareja, trabajo y jefes, vida adulta y cansancio, dinero y compras, dietas y gym, amigas, redes y celular, vida latina en EE. UU. y Spanglish, tías y fiestas, familia.
+- Máximo 1 de humor familiar por lote y no repitas el tipo de humor del día anterior si hay alternativa.
+- 1 motivacional o indirecta, que Geri puede rechazar al revisar.
+- Los temas de fechas del momento van primero si hay una fecha cercana.
 
 ## Prohibido
 "Comenta amén", "etiqueta a", "comparte si", "guárdalo", "dale like"; citas de personas reales; copiar frases ajenas; consejos médicos; café o matcha; datos reales de la vida de Geri, su trabajo o su esposo; temas políticos o religiosos divisivos; humor que humille.
@@ -33,7 +33,7 @@ Si una hora ya pasó al aprobar, usa la siguiente disponible con al menos 45 min
 
 ## Formato adicional
 Además de los formatos listados en la tarea, existe f="dialogo": t es un título corto; items son 1 a 4 líneas "Mamá: ..." y "Yo: ...", máximo 9 palabras por línea, con remate al final.
-Cada lote de 5 lleva al menos 1 dialogo. Las frases de la serie del hijo favorito son ficción de humor, no datos de la familia de Geri.
+Usa dialogo cuando la escena lo pida, con cualquier tipo de humor. Las frases de la serie del hijo favorito son ficción de humor, no datos de la familia de Geri.
 
 ## Voz
 Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
@@ -41,5 +41,5 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 ## Aprobadas por Geri
 - Lote del 3 de noviembre de 2026: incluir sí o sí la conversación f="dialogo", t="Yo llamando a mi mamá *a contarle algo de mí:*", items=["Mamá: ¿Y tu hermano ya comió?"], c="Siempre vuelve a él.", a las 12:00 p. m.
 - Esa conversación es la ÚNICA frase aprobada. Ninguna otra del banco está aprobada.
-- Propón otras 4 nuevas para completar el lote, distintas y mejores; Geri decide al revisar. Publica únicamente las que ella apruebe, aunque sea una sola.
+- Propón otras 4 nuevas para completar el lote, de tipos de humor diferentes al familiar; Geri decide al revisar. Publica únicamente las que ella apruebe, aunque sea una sola.
 - Muestra cada lote y espera su "publica".
