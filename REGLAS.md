@@ -38,8 +38,6 @@ Usa dialogo cuando la escena lo pida, con cualquier tipo de humor. Las frases de
 ## Voz
 Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
 
-## Aprobadas por Geri
-- Lote del 3 de noviembre de 2026: incluir sí o sí la conversación f="dialogo", t="Yo llamando a mi mamá *a contarle algo de mí:*", items=["Mamá: ¿Y tu hermano ya comió?"], c="Siempre vuelve a él.", a las 12:00 p. m.
-- También aprobadas para el lote del 3 de noviembre, del banco GERI_BANK: "¿Cuál es peor?" (f=pregunta) y "Si hoy solo pudiste levantarte" (f=nota). Ninguna otra frase del banco está aprobada todavía.
-- Propón otras 2 nuevas para completar el lote, de tipos de humor diferentes al familiar; Geri decide al revisar. Publica únicamente las que ella apruebe, aunque sea una sola.
-- Muestra cada lote y espera su "publica".
+## Estado
+- El lote del 3 de noviembre de 2026 ya está programado con aprobación de Geri (7 imágenes). Si la tarea corre ese día, no prepares otro lote: revisa con getScheduledPosts, confirma a Geri en una línea y termina.
+- Desde el 4 de noviembre, prepara lotes nuevos de 5 según estas reglas, sin repetir usadas.json. Cada lote se muestra y espera su "publica".
