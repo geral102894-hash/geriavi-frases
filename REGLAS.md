@@ -40,6 +40,6 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 
 ## Aprobadas por Geri
 - Lote del 3 de noviembre de 2026: incluir sí o sí la conversación f="dialogo", t="Yo llamando a mi mamá *a contarle algo de mí:*", items=["Mamá: ¿Y tu hermano ya comió?"], c="Siempre vuelve a él.", a las 12:00 p. m.
-- Geri aprobó solo la serie de mamá: "Mi mamá me llama para saber de mí y termina hablándome de su hijo favorito" y "En tu casa, la favorita o el favorito es". Van en el lote del 3 de noviembre junto con la conversación anterior.
-- Completa ese lote con otras 2 frases de mamá y el hijo favorito del banco o nuevas. Las frases de otros temas no están aprobadas: solo van si Geri las acepta al revisar.
+- Esa conversación es la ÚNICA frase aprobada. Ninguna otra del banco está aprobada.
+- Propón otras 4 nuevas para completar el lote, distintas y mejores; Geri decide al revisar. Publica únicamente las que ella apruebe, aunque sea una sola.
 - Muestra cada lote y espera su "publica".
