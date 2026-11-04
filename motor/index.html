@@ -84,7 +84,7 @@ h2{font:400 26px var(--display);margin:0}
 
   const FORMATS = {
     verdad: 'La verdad', indirecta: 'Indirecta', latina: 'Latina en EE. UU.',
-    lista: 'Lista corta', nota: 'Nota para mí', pregunta: 'Esto o aquello', dialogo: 'Conversación'
+    lista: 'Lista corta', nota: 'Nota para mí', pregunta: 'Esto o aquello', dialogo: 'Conversación', permiso: 'Permiso'
   };
 
   function tokens(text) {
@@ -227,6 +227,13 @@ h2{font:400 26px var(--display);margin:0}
         text(ctx, say, { x: x + 36, y: y + 66, w: bw - 72, h: h - 90 }, { font: DISPLAY, max: items.length < 2 ? 88 : 62, min: 36, color: me ? C.white : C.wine, lh: 1.12 });
       });
       foot(ctx, C.wine);
+    },
+    // Permiso: solo texto centrado, sin etiqueta, para leer de un vistazo y enviar.
+    permiso(ctx, it) {
+      bg(ctx, C.pink);
+      text(ctx, it.t, { x: M, y: 150, w: W - M * 2, h: 960 }, { font: DISPLAY, max: 112, min: 62, color: C.wine, em: C.rose, lh: 1.12, align: 'center' });
+      ctx.font = `800 34px "${BODY}"`; ctx.fillStyle = C.wine; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+      ctx.fillText(HANDLE, W / 2, H - 76);
     },
     // Dos mitades que obligan a elegir.
     pregunta(ctx, it) {
