@@ -40,9 +40,10 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 
 ## Estado
 - Geri eligió 3 publicaciones al día, a las 10:00, 12:00 y 18:00 (America/New_York). Esto reemplaza cualquier otro horario o cantidad de este archivo.
-- Ya están programadas las 3 del 4 de noviembre y la de las 10:00 del 5 de noviembre.
-- Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan (el 5 de noviembre son 2: 12:00 y 18:00), muéstralas y espera su aprobación.
+- Ya están programadas las 3 del 4 de noviembre y las 3 del 5 de noviembre.
+- Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan, muéstralas y espera su aprobación.
 
 
 ## Voz de Geri
 No publiques frases que digan que Geri no entiende inglés: sí lo entiende.
+A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que te conteste cada 3 meses. Estoy sobreviviendo, pero te amo, ¿ok? Que todo te salga bonito." Escribe en esa voz. No uses chistes de jefes.
