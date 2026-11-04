@@ -7,11 +7,11 @@ Evidencia: Meta degrada pedir reacciones, comentarios, etiquetas o compartir; ta
 2. Prueba de la escena: describe algo reconocible, no un consejo que sirve para cualquiera.
 3. Prueba del pulgar: máximo 16 palabras en la frase principal; se entiende en miniatura.
 
-## Prioridad del lote de 5
+## Mezcla de cada semana
 Geri quiere humor de tipos diferentes, no solo familiar.
-- 4 de humor, cada una de un tipo distinto: pareja, trabajo y jefes, vida adulta y cansancio, dinero y compras, dietas y gym, amigas, redes y celular, vida latina en EE. UU. y Spanglish, tías y fiestas, familia.
-- Máximo 1 de humor familiar por lote y no repitas el tipo de humor del día anterior si hay alternativa.
-- 1 motivacional o indirecta, que Geri puede rechazar al revisar.
+- Más o menos 4 de cada 5 de humor, cada una de un tipo distinto: pareja, trabajo y jefes, vida adulta y cansancio, dinero y compras, dietas y gym, amigas, redes y celular, vida latina en EE. UU. y Spanglish, tías y fiestas, familia.
+- Máximo 1 de humor familiar por día y no repitas el tipo de humor del día anterior si hay alternativa.
+- Más o menos 1 de cada 5 motivacional o indirecta, que Geri puede rechazar al revisar.
 - Los temas de fechas del momento van primero si hay una fecha cercana.
 
 ## Prohibido
@@ -39,5 +39,7 @@ Usa dialogo cuando la escena lo pida, con cualquier tipo de humor. Las frases de
 Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas con remate directo, como "Yo llamando a mi mamá a contarle algo de mí:" / "¿Y tu hermano ya comió?". Una sola respuesta de mamá también vale..
 
 ## Estado
-- Geri aprobó las 7 imágenes de lotes/2026-11-03 y está decidiendo cuántas publicar por día. Revisa getScheduledPosts: si ya están programadas, confirma en una línea y termina. Si no, no crees frases nuevas: muéstrale esas 7 y pregúntale cuántas publica hoy. Los pies de foto y el orden están en esa carpeta por número: 01 Para la que hoy se comparó con alguien. / 02 Cuéntame por qué. / 03 ¿Solo a mí me pasa? / 04 Siempre vuelve a él. / 05 ¿Cuántas te tocaron? / 06 La calma también es una respuesta. / 07 Esto es para ti.
-- Cuando se acaben esas 7, prepara lotes nuevos según la cantidad que Geri elija según estas reglas, sin repetir usadas.json. Cada lote se muestra y espera su "publica".
+- Geri eligió 3 publicaciones al día, a las 10:00, 12:00 y 18:00 (America/New_York). Esto reemplaza cualquier otro horario o cantidad de este archivo.
+- Ya están programadas las 3 del 4 de noviembre y la de las 10:00 del 5 de noviembre.
+- Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan (el 5 de noviembre son 2: 12:00 y 18:00), muéstralas y espera su aprobación.
+
