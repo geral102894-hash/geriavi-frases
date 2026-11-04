@@ -47,3 +47,6 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 ## Voz de Geri
 No publiques frases que digan que Geri no entiende inglés: sí lo entiende.
 A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que te conteste cada 3 meses. Estoy sobreviviendo, pero te amo, ¿ok? Que todo te salga bonito." Escribe en esa voz. No uses chistes de jefes.
+
+## Ideas que le gustaron a Geri
+- Referencia que guardó: un meme con una escena de TV, texto corto en primera persona y expresión cansada, sobre la edad que se pone seria. Copia el tono, nunca el texto ni la imagen: "yo viendo cómo...". No uses capturas de series ni películas, porque tienen derechos de autor y Meta las considera contenido no original.
