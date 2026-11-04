@@ -43,3 +43,6 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 - Ya están programadas las 3 del 4 de noviembre y la de las 10:00 del 5 de noviembre.
 - Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan (el 5 de noviembre son 2: 12:00 y 18:00), muéstralas y espera su aprobación.
 
+
+## Voz de Geri
+No publiques frases que digan que Geri no entiende inglés: sí lo entiende.
