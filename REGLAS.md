@@ -50,3 +50,4 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 
 ## Ideas que le gustaron a Geri
 - Referencia que guardó: un meme con una escena de TV, texto corto en primera persona y expresión cansada, sobre la edad que se pone seria. Copia el tono, nunca el texto ni la imagen: "yo viendo cómo...". No uses capturas de series ni películas, porque tienen derechos de autor y Meta las considera contenido no original.
+- Referencia guardada por Geri: publicación de Instagram (@aterapiaconmiriam, 21 oct 2026), texto vino sobre fondo rosa, sin foto, tipo "permiso" o invitación a disfrutar la vida: 30.3K me gusta, 91 comentarios, 7,075 republicaciones y 7,038 envíos. Se comparte mucho más de lo que se comenta. Prueba frases de "permiso" con esta estructura, sin copiar su texto.
