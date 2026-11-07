@@ -40,7 +40,7 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 
 ## Estado
 - Geri eligió 3 publicaciones al día, a las 10:00, 12:00 y 18:00 (America/New_York). Esto reemplaza cualquier otro horario o cantidad de este archivo.
-- Ya están programadas las 3 del 4 de noviembre y las 3 del 5 de noviembre.
+- Ya están programadas las del 4, 5, 7 y 8 de noviembre (3 por día).
 - El 6 de noviembre a las 12:00 ya está programada la frase "La vida que estás posponiendo es esta"; ese día faltan solo las de 10:00 y 18:00, de humor.
 - Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan, muéstralas y espera su aprobación.
 
@@ -58,3 +58,8 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Desde el 6 de noviembre hay acceso a images.pexels.com (www.pexels.com responde 403). Busca fotos con WebSearch limitado a pexels.com y descárgalas por id: https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=1080
 - Genera con: node motor/foto.js CARPETA lote.json, con objetos {"photo": ruta local, "t": texto, "fy": 0 a 1 para encuadrar}. Texto arriba en blanco, foto abajo.
 - Fórmula: "Yo cuando...", "Yo diciendo...", "Yo viendo...". Nada de dolores ni enfermedades sobre la cara de alguien, ni fotos con logos.
+
+## Memes: regla de Geri
+- Nunca uses fotos de banco genéricas de personas (oficina, gente estresada). Deben ser creativas.
+- Le gustan los memes de animales con caras expresivas (gatos, perros) con texto corto en primera persona.
+- Prohibido usar personajes con dueño: Barbie, Kermit, Simpsons, Shrek, Bibble y similares, ni plantillas de memes famosos.
