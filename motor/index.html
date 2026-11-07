@@ -220,7 +220,7 @@ h2{font:400 26px var(--display);margin:0}
       const items = it.items || [], top = items.length < 2 ? 470 : 370, bottom = items.length < 2 ? 900 : H - 130, gap = 26;
       const h = (bottom - top - gap * (items.length - 1)) / Math.max(items.length, 1);
       items.forEach((raw, i) => {
-        const m = String(raw).match(/^([^:]{1,14}):\s*(.*)$/), who = m ? m[1] : '', say = m ? m[2] : raw;
+        const m = String(raw).match(/^([^:]{1,22}):\s*(.*)$/), who = m ? m[1] : '', say = m ? m[2] : raw;
         const me = /^yo$/i.test(who.trim()), bw = W - 240, x = me ? W - 64 - bw : 64, y = top + (h + gap) * i;
         ctx.fillStyle = me ? C.wine : C.white; rr(ctx, x, y, bw, h, 34); ctx.fill();
         label(ctx, who, x + 36, y + 52, me ? C.pink : C.rose);
@@ -234,6 +234,21 @@ h2{font:400 26px var(--display);margin:0}
       text(ctx, it.t, { x: M, y: 150, w: W - M * 2, h: 960 }, { font: DISPLAY, max: 112, min: 62, color: C.wine, em: C.rose, lh: 1.12, align: 'center' });
       ctx.font = `800 34px "${BODY}"`; ctx.fillStyle = C.wine; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
       ctx.fillText(HANDLE, W / 2, H - 76);
+    },
+    // Versus: dos situaciones con etiqueta; items = ['Etiqueta: texto', 'Etiqueta: texto'].
+    versus(ctx, it) {
+      const sp = s => { const m = String(s).match(/^([^:]{1,22}):\s*(.*)$/); return m ? [m[1], m[2]] : ['', s]; };
+      const [la, ta] = sp((it.items || [])[0] || ''), [lb, tb] = sp((it.items || [])[1] || '');
+      bg(ctx, C.white);
+      ctx.fillStyle = C.wine; ctx.fillRect(0, 0, W, 360);
+      label(ctx, 'Versus', M, 110, C.pink);
+      text(ctx, it.t, { x: M, y: 140, w: W - M * 2, h: 190 }, { font: DISPLAY, max: 84, min: 50, color: C.pink, em: C.white, lh: 1.06 });
+      ctx.fillStyle = C.pink; ctx.fillRect(0, 360, W, 445);
+      label(ctx, la, M, 440, C.rose);
+      text(ctx, ta, { x: M, y: 470, w: W - M * 2, h: 300 }, { font: DISPLAY, max: 80, min: 46, color: C.wine, lh: 1.08 });
+      label(ctx, lb, M, 885, C.rose);
+      text(ctx, tb, { x: M, y: 915, w: W - M * 2, h: 290 }, { font: DISPLAY, max: 80, min: 46, color: C.wine, lh: 1.08 });
+      foot(ctx, C.wine);
     },
     // Dos mitades que obligan a elegir.
     pregunta(ctx, it) {

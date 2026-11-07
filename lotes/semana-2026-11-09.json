@@ -1,97 +1,95 @@
 {
  "2026-11-09": [
   {
-   "f": "verdad",
-   "t": "Lunes: me levanté con toda la actitud. *La actitud se quedó en la cama.*",
-   "c": "Vuelvo mañana."
-  },
-  {
-   "f": "dialogo",
-   "t": "Cada noche *en mi casa:*",
+   "f": "lista",
+   "t": "Mi mochila de emergencia *de latina*",
    "items": [
-    "Él: ¿Qué quieres de cenar?",
-    "Yo: Lo que sea.",
-    "Él: ¿Pizza?",
-    "Yo: No, eso no."
+    "El cargador",
+    "Las chanclas",
+    "El sazón",
+    "El número de la tía que sabe de todo"
    ],
-   "c": "Y así hasta las 10."
+   "c": "Lista para lo que venga."
   },
   {
    "meme": 1,
    "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/14492415.jpg",
    "t": "Yo cuando veo el resumen de la tarjeta después del fin de semana.",
    "c": "No me acuerdo de nada."
+  },
+  {
+   "f": "permiso",
+   "t": "Pon el arbolito en noviembre si quieres. Estrena la pijama de Navidad. *No esperes una fecha para disfrutar.*",
+   "c": "Yo ya lo puse."
   }
  ],
  "2026-11-10": [
   {
-   "f": "latina",
-   "t": "En mi casa no se bota nada: *el pote de helado es para los frijoles.*",
-   "c": "Y la bolsa de bolsas también."
+   "f": "verdad",
+   "t": "Noviembre: el mes en que mi mamá ya pregunta *“¿y vas a venir en diciembre?”*",
+   "c": "Ya empezó."
   },
   {
-   "f": "permiso",
-   "t": "Si te cansaste, descansa. *No tienes que ganarte el derecho a parar.*",
-   "c": "Permiso concedido."
-  },
-  {
-   "f": "lista",
-   "t": "Señales de que *ya eres una señora*",
+   "f": "dialogo",
+   "t": "El chisme *entre amigas:*",
    "items": [
-    "Te emociona una sartén nueva",
-    "Sabes qué detergente está en oferta",
-    "Dices “en mis tiempos”",
-    "Te acuestas a las 9 y feliz"
+    "Amiga: No le digas a nadie.",
+    "Yo: Te lo juro.",
+    "Yo 5 min después: Amiga, siéntate."
    ],
-   "c": "¿Cuántas llevas?"
+   "c": "Una sola persona. Bueno, dos."
+  },
+  {
+   "f": "versus",
+   "t": "Planear *el fin de semana:*",
+   "items": [
+    "Yo el lunes: Gym, limpieza y comida para toda la semana.",
+    "Yo el sábado: En pijama hasta las 3 de la tarde."
+   ],
+   "c": "Igual cuenta como descanso."
   }
  ],
  "2026-11-11": [
   {
    "f": "verdad",
-   "t": "Me prometí no gastar nada este mes. *Hoy es 11.*",
-   "c": "Bueno, el otro mes."
-  },
-  {
-   "f": "dialogo",
-   "t": "Yo vs. yo *a las 2 a. m.:*",
-   "items": [
-    "Yo: Esta noche me acuesto temprano.",
-    "Yo 2 a. m.: Viendo videos de cómo hacen jabón."
-   ],
-   "c": "Muy necesario."
+   "t": "En diciembre engordo, en enero me arrepiento *y en noviembre ya estoy practicando.*",
+   "c": "La disciplina es la disciplina."
   },
   {
    "meme": 1,
    "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/10403379.jpg",
    "t": "Yo cuando me preguntan si ya tengo planes para Navidad.",
    "c": "Todavía no, gracias."
+  },
+  {
+   "f": "nota",
+   "t": "Si este año fue difícil y aun así llegaste a noviembre, *ya ganaste.*",
+   "c": "Para ti, que no te rendiste."
   }
  ],
  "2026-11-12": [
   {
-   "f": "pregunta",
-   "t": "Si tuvieras que elegir *para siempre:*",
-   "items": [
-    "Lavar los platos",
-    "Doblar la ropa"
-   ],
-   "c": "Solo una."
-  },
-  {
-   "f": "nota",
-   "t": "Amiga, ese mensaje que estás pensando mandarle… *no se lo mandes. Mándamelo a mí.*",
-   "c": "Yo te lo guardo."
+   "f": "latina",
+   "t": "Thanksgiving en casa latina: *pavo, sí. Pero con arroz, frijoles y el pernil de mi tía.*",
+   "c": "El pavo es lo de menos."
   },
   {
    "f": "dialogo",
-   "t": "Mi mamá *por teléfono:*",
+   "t": "Cuando digo *“ya casi estoy lista”:*",
    "items": [
-    "Mamá: ¿Por qué no me has llamado?",
-    "Yo: Te llamé ayer.",
-    "Mamá: Eso fue ayer."
+    "Yo: Ya casi estoy lista.",
+    "Realidad: Todavía con la toalla en la cabeza."
    ],
-   "c": "No hay forma de ganar."
+   "c": "Cinco minutitos."
+  },
+  {
+   "f": "pregunta",
+   "t": "¿Qué es *más difícil?*",
+   "items": [
+    "Dejar el pan",
+    "Dejar de revisarle el perfil al ex"
+   ],
+   "c": "Sin mentir."
   }
  ],
  "2026-11-13": [
@@ -102,13 +100,13 @@
   },
   {
    "f": "permiso",
-   "t": "Celebra lo pequeño: pagaste a tiempo, tomaste agua, *no le escribiste.* Eso también cuenta.",
-   "c": "Orgullosa de ti."
+   "t": "Es viernes. Apaga las notificaciones, ponte cómoda *y no te disculpes por descansar.*",
+   "c": "Te lo ganaste. Y si no, igual."
   },
   {
    "f": "indirecta",
-   "t": "Estoy en mi época *de no explicarle nada a nadie.*",
-   "c": "Y me queda bien."
+   "t": "Ya no peleo. *Solo cambio la contraseña de Netflix.*",
+   "c": "Más elegante."
   }
  ],
  "2026-11-14": [
@@ -119,25 +117,24 @@
    "c": "Nunca es solo algo."
   },
   {
-   "f": "dialogo",
-   "t": "Los planes *del sábado:*",
+   "f": "versus",
+   "t": "Salir *con las amigas:*",
    "items": [
-    "Amiga: ¿Salimos hoy?",
-    "Yo: ¡Claro que sí!",
-    "Yo 8 p. m.: Amiga, me dio sueño."
+    "A los 20: Salimos a las 11 de la noche.",
+    "A los 30: Brunch a las 11 de la mañana."
    ],
-   "c": "Quedamos para el otro sábado."
+   "c": "Y feliz."
   },
   {
    "f": "lista",
-   "t": "Lujos *de sábado*",
+   "t": "Cosas que solo entiende *una latina en EE. UU.*",
    "items": [
-    "Desayunar a las 11",
-    "Siesta sin alarma",
-    "Cero mensajes de grupo",
-    "No salir de la casa"
+    "Llamar a mamá con otro horario",
+    "Que algo “spicy” no pique nada",
+    "Pagar 2 dólares por un aguacate",
+    "Hablar en dos idiomas a la vez"
    ],
-   "c": "Lo mejor de la semana."
+   "c": "¿Cuál te pasa más?"
   }
  ],
  "2026-11-15": [
