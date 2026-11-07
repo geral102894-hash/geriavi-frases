@@ -1,15 +1,9 @@
 {
  "2026-11-09": [
   {
-   "f": "lista",
-   "t": "Mi mochila de emergencia *de latina*",
-   "items": [
-    "El cargador",
-    "Las chanclas",
-    "El sazón",
-    "El número de la tía que sabe de todo"
-   ],
-   "c": "Lista para lo que venga."
+   "f": "permiso",
+   "t": "Mis amigas y yo no decimos “te extraño”.\nNos mandamos memes de madrugada\n*Si te llegó uno, es que te pienso.*",
+   "c": "Te lo mando y ya."
   },
   {
    "meme": 1,
@@ -26,18 +20,13 @@
  "2026-11-10": [
   {
    "f": "verdad",
-   "t": "Noviembre: el mes en que mi mamá ya pregunta *“¿y vas a venir en diciembre?”*",
-   "c": "Ya empezó."
+   "t": "Mi cuerpo a los 30: *te dormiste en mala posición, ahora te duele una semana.*",
+   "c": "Y ni siquiera hice nada."
   },
   {
-   "f": "dialogo",
-   "t": "El chisme *entre amigas:*",
-   "items": [
-    "Amiga: No le digas a nadie.",
-    "Yo: Te lo juro.",
-    "Yo 5 min después: Amiga, siéntate."
-   ],
-   "c": "Una sola persona. Bueno, dos."
+   "f": "permiso",
+   "t": "Mis amigas y yo no nos vemos hace meses.\nPero si una dice “necesito hablar”…\n*en 20 minutos estamos todas en su sala.*",
+   "c": "Así somos."
   },
   {
    "f": "versus",
@@ -51,20 +40,27 @@
  ],
  "2026-11-11": [
   {
-   "f": "verdad",
-   "t": "En diciembre engordo, en enero me arrepiento *y en noviembre ya estoy practicando.*",
-   "c": "La disciplina es la disciplina."
+   "f": "dialogo",
+   "t": "Yo *en el súper:*",
+   "items": [
+    "Yo: Solo vengo por leche.",
+    "Mi carrito: 187 dólares."
+   ],
+   "c": "La leche se me olvidó."
   },
   {
-   "meme": 1,
-   "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/10403379.jpg",
-   "t": "Yo cuando me preguntan si ya tengo planes para Navidad.",
-   "c": "Todavía no, gracias."
+   "f": "versus",
+   "t": "Yo *con mis amigas:*",
+   "items": [
+    "En persona: Ay, no quiero molestar.",
+    "En el chat: 47 mensajes y 12 audios."
+   ],
+   "c": "Dos personas distintas."
   },
   {
-   "f": "nota",
-   "t": "Si este año fue difícil y aun así llegaste a noviembre, *ya ganaste.*",
-   "c": "Para ti, que no te rendiste."
+   "f": "permiso",
+   "t": "No tienes que contestar ese mensaje hoy. *Tu paz no tiene horario de atención al cliente.*",
+   "c": "Mañana, si acaso."
   }
  ],
  "2026-11-12": [
@@ -129,7 +125,7 @@
    "f": "lista",
    "t": "Cosas que solo entiende *una latina en EE. UU.*",
    "items": [
-    "Llamar a mamá con otro horario",
+    "Llamar con otro horario",
     "Que algo “spicy” no pique nada",
     "Pagar 2 dólares por un aguacate",
     "Hablar en dos idiomas a la vez"
@@ -139,9 +135,9 @@
  ],
  "2026-11-15": [
   {
-   "f": "latina",
-   "t": "Domingo en casa latina: *música a todo volumen y limpieza general a las 8 a. m.*",
-   "c": "Nadie duerme."
+   "f": "permiso",
+   "t": "Mi amiga y yo no hablamos todos los días.\nPero cuando hablamos…\n*son tres horas y cuatro audios de siete minutos.*",
+   "c": "Y faltó tiempo."
   },
   {
    "f": "permiso",

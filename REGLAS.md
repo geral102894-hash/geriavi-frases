@@ -63,3 +63,10 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Nunca uses fotos de banco genéricas de personas (oficina, gente estresada). Deben ser creativas.
 - Le gustan los memes de animales con caras expresivas (gatos, perros) con texto corto en primera persona.
 - Prohibido usar personajes con dueño: Barbie, Kermit, Simpsons, Shrek, Bibble y similares, ni plantillas de memes famosos.
+
+## Lo que Geri rechazó (noviembre 2026)
+- Es latina, pero no de estereotipo: nada de chanclas, sazón, pote de helado con frijoles, "domingo en casa latina" con música y limpieza.
+- Su mamá vive con ella: nada de chistes de mamá lejos, llamarla con otro horario o "¿vas a venir en diciembre?".
+- Guarda los secretos: nada de chistes de contar chismes.
+- No le gustaron: "en diciembre engordo…", "si fue difícil y llegaste a noviembre", el gato de planes para Navidad.
+- Le encantan las frases de amigas tipo envío: "Mis amigas y yo no…", estructura de 3 partes con remate.
