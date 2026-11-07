@@ -1,0 +1,160 @@
+{
+ "2026-11-09": [
+  {
+   "f": "verdad",
+   "t": "Lunes: me levanté con toda la actitud. *La actitud se quedó en la cama.*",
+   "c": "Vuelvo mañana."
+  },
+  {
+   "f": "dialogo",
+   "t": "Cada noche *en mi casa:*",
+   "items": [
+    "Él: ¿Qué quieres de cenar?",
+    "Yo: Lo que sea.",
+    "Él: ¿Pizza?",
+    "Yo: No, eso no."
+   ],
+   "c": "Y así hasta las 10."
+  },
+  {
+   "meme": 1,
+   "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/14492415.jpg",
+   "t": "Yo cuando veo el resumen de la tarjeta después del fin de semana.",
+   "c": "No me acuerdo de nada."
+  }
+ ],
+ "2026-11-10": [
+  {
+   "f": "latina",
+   "t": "En mi casa no se bota nada: *el pote de helado es para los frijoles.*",
+   "c": "Y la bolsa de bolsas también."
+  },
+  {
+   "f": "permiso",
+   "t": "Si te cansaste, descansa. *No tienes que ganarte el derecho a parar.*",
+   "c": "Permiso concedido."
+  },
+  {
+   "f": "lista",
+   "t": "Señales de que *ya eres una señora*",
+   "items": [
+    "Te emociona una sartén nueva",
+    "Sabes qué detergente está en oferta",
+    "Dices “en mis tiempos”",
+    "Te acuestas a las 9 y feliz"
+   ],
+   "c": "¿Cuántas llevas?"
+  }
+ ],
+ "2026-11-11": [
+  {
+   "f": "verdad",
+   "t": "Me prometí no gastar nada este mes. *Hoy es 11.*",
+   "c": "Bueno, el otro mes."
+  },
+  {
+   "f": "dialogo",
+   "t": "Yo vs. yo *a las 2 a. m.:*",
+   "items": [
+    "Yo: Esta noche me acuesto temprano.",
+    "Yo 2 a. m.: Viendo videos de cómo hacen jabón."
+   ],
+   "c": "Muy necesario."
+  },
+  {
+   "meme": 1,
+   "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/10403379.jpg",
+   "t": "Yo cuando me preguntan si ya tengo planes para Navidad.",
+   "c": "Todavía no, gracias."
+  }
+ ],
+ "2026-11-12": [
+  {
+   "f": "pregunta",
+   "t": "Si tuvieras que elegir *para siempre:*",
+   "items": [
+    "Lavar los platos",
+    "Doblar la ropa"
+   ],
+   "c": "Solo una."
+  },
+  {
+   "f": "nota",
+   "t": "Amiga, ese mensaje que estás pensando mandarle… *no se lo mandes. Mándamelo a mí.*",
+   "c": "Yo te lo guardo."
+  },
+  {
+   "f": "dialogo",
+   "t": "Mi mamá *por teléfono:*",
+   "items": [
+    "Mamá: ¿Por qué no me has llamado?",
+    "Yo: Te llamé ayer.",
+    "Mamá: Eso fue ayer."
+   ],
+   "c": "No hay forma de ganar."
+  }
+ ],
+ "2026-11-13": [
+  {
+   "f": "verdad",
+   "t": "Viernes 13 y lo único que me da miedo *es mi cuenta del banco.*",
+   "c": "Ese sí asusta."
+  },
+  {
+   "f": "permiso",
+   "t": "Celebra lo pequeño: pagaste a tiempo, tomaste agua, *no le escribiste.* Eso también cuenta.",
+   "c": "Orgullosa de ti."
+  },
+  {
+   "f": "indirecta",
+   "t": "Estoy en mi época *de no explicarle nada a nadie.*",
+   "c": "Y me queda bien."
+  }
+ ],
+ "2026-11-14": [
+  {
+   "meme": 1,
+   "photo": "/tmp/claude-0/-home-claude/641928b3-37f1-54fc-83db-2b86574a0954/scratchpad/pexels/4492140.jpg",
+   "t": "Yo cuando me despiertan de la siesta “solo para preguntarme algo”.",
+   "c": "Nunca es solo algo."
+  },
+  {
+   "f": "dialogo",
+   "t": "Los planes *del sábado:*",
+   "items": [
+    "Amiga: ¿Salimos hoy?",
+    "Yo: ¡Claro que sí!",
+    "Yo 8 p. m.: Amiga, me dio sueño."
+   ],
+   "c": "Quedamos para el otro sábado."
+  },
+  {
+   "f": "lista",
+   "t": "Lujos *de sábado*",
+   "items": [
+    "Desayunar a las 11",
+    "Siesta sin alarma",
+    "Cero mensajes de grupo",
+    "No salir de la casa"
+   ],
+   "c": "Lo mejor de la semana."
+  }
+ ],
+ "2026-11-15": [
+  {
+   "f": "latina",
+   "t": "Domingo en casa latina: *música a todo volumen y limpieza general a las 8 a. m.*",
+   "c": "Nadie duerme."
+  },
+  {
+   "f": "permiso",
+   "t": "Que esta semana te trate bonito. *Y si no, que te encuentre fuerte.*",
+   "c": "Para esta semana."
+  },
+  {
+   "f": "verdad",
+   "t": "Cada domingo digo “la próxima semana me organizo”. *Llevo tres años de próxima semana.*",
+   "c": "Esta sí. Creo."
+  }
+ ]
+}
