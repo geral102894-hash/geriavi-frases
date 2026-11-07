@@ -40,7 +40,7 @@ Di "mamá", nunca "mami". Las conversaciones funcionan mejor cortas: 2 líneas c
 
 ## Estado
 - Geri eligió 3 publicaciones al día, a las 10:00, 12:00 y 18:00 (America/New_York). Esto reemplaza cualquier otro horario o cantidad de este archivo.
-- Ya están programadas las del 4, 5, 7 y 8 de noviembre (3 por día).
+- Ya están programadas las del 4, 5, 7 y 8 de noviembre y toda la semana del 9 al 15 (3 por día).
 - El 6 de noviembre a las 12:00 ya está programada la frase "La vida que estás posponiendo es esta"; ese día faltan solo las de 10:00 y 18:00, de humor.
 - Cada mañana revisa getScheduledPosts. Si hoy ya tiene 3, confirma en una línea y termina, sin crear nada. Si faltan, prepara solo las que faltan, muéstralas y espera su aprobación.
 
