@@ -53,3 +53,8 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Referencia que guardó: un meme con una escena de TV, texto corto en primera persona y expresión cansada, sobre la edad que se pone seria. Copia el tono, nunca el texto ni la imagen: "yo viendo cómo...". No uses capturas de series ni películas, porque tienen derechos de autor y Meta las considera contenido no original.
 - Referencia guardada por Geri: publicación de Instagram (@aterapiaconmiriam, 21 oct 2026), texto vino sobre fondo rosa, sin foto, tipo "permiso" o invitación a disfrutar la vida: 30.3K me gusta, 91 comentarios, 7,075 republicaciones y 7,038 envíos. Se comparte mucho más de lo que se comenta. Prueba frases de "permiso" con esta estructura, sin copiar su texto.
 - Existe f="permiso": solo texto centrado, sin etiqueta. Úsalo 1 vez cada 2 días como prueba frente al humor.
+
+## Memes con fotos de Pexels
+- Desde el 6 de noviembre hay acceso a images.pexels.com (www.pexels.com responde 403). Busca fotos con WebSearch limitado a pexels.com y descárgalas por id: https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=1080
+- Genera con: node motor/foto.js CARPETA lote.json, con objetos {"photo": ruta local, "t": texto, "fy": 0 a 1 para encuadrar}. Texto arriba en blanco, foto abajo.
+- Fórmula: "Yo cuando...", "Yo diciendo...", "Yo viendo...". Nada de dolores ni enfermedades sobre la cara de alguien, ni fotos con logos.
