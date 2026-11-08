@@ -250,6 +250,15 @@ h2{font:400 26px var(--display);margin:0}
       text(ctx, tb, { x: M, y: 915, w: W - M * 2, h: 290 }, { font: DISPLAY, max: 80, min: 46, color: C.wine, lh: 1.08 });
       foot(ctx, C.wine);
     },
+    // Crema: letra grande y gruesa en vino sobre crema, alineada a la izquierda.
+    crema(ctx, it) {
+      bg(ctx, '#F6EEE3');
+      text(ctx, it.t, { x: M, y: 140, w: W - M * 2, h: 1010 }, { font: DISPLAY, max: 120, min: 60, color: '#7A1424', em: C.rose, lh: 1.02 });
+      ctx.font = `800 32px "${BODY}"`; ctx.fillStyle = '#7A1424'; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+      if ('letterSpacing' in ctx) ctx.letterSpacing = '2px';
+      ctx.fillText(HANDLE.toUpperCase(), W / 2, H - 90);
+      if ('letterSpacing' in ctx) ctx.letterSpacing = '0px';
+    },
     // Dos mitades que obligan a elegir.
     pregunta(ctx, it) {
       const [a, b] = it.items && it.items.length > 1 ? it.items : ['Opción A', 'Opción B'];

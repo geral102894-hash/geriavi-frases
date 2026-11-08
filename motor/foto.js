@@ -11,6 +11,21 @@ const { chromium } = require('playwright'), fs = require('fs'), path = require('
     for (const it of lot) {
       const im = new Image(); im.src = it.img; await im.decode();
       const c = document.createElement('canvas'); c.width = W; c.height = H; const x = c.getContext('2d');
+      if (it.style === 'texto') {
+        // foto de ambiente con texto serif claro encima, como los reels de frases
+        const s3 = Math.max(W / im.width, H / im.height), w3 = im.width * s3, h3 = im.height * s3;
+        x.drawImage(im, (W - w3) / 2 + (it.dx || 0), (H - h3) * (it.fy ?? 0.5), w3, h3);
+        x.fillStyle = 'rgba(20,6,10,' + (it.dim ?? 0.38) + ')'; x.fillRect(0, 0, W, H);
+        const ws = it.t.split(' '); let sz = 66, ls;
+        for (; sz >= 40; sz -= 2) { x.font = `400 ${sz}px Gloock`; ls = [''];
+          for (const wd of ws) { const t = ls[ls.length-1] ? ls[ls.length-1] + ' ' + wd : wd; if (x.measureText(t).width > W - 2*100 && ls[ls.length-1]) ls.push(wd); else ls[ls.length-1] = t; }
+          if (ls.length * sz * 1.16 <= 640) break; }
+        x.textAlign = 'center'; x.textBaseline = 'alphabetic'; x.fillStyle = it.color || '#FFE9B8';
+        x.shadowColor = 'rgba(0,0,0,.6)'; x.shadowBlur = 14;
+        let yy = H * (it.ty ?? 0.5) - ls.length * sz * 1.16 / 2 + sz * 0.86; for (const l of ls) { x.fillText(l, W / 2, yy); yy += sz * 1.16; }
+        x.shadowBlur = 0; x.font = '800 30px Figtree'; x.fillStyle = 'rgba(255,255,255,.9)'; x.fillText('@bygeriavi', W / 2, H - 70); x.textAlign = 'left';
+        out.push(c.toDataURL('image/png')); continue;
+      }
       if (it.style === 'marco') {
         // estilo de la marca: fondo rosa, frase vino arriba, foto en marco redondeado
         x.fillStyle = '#FFD7E7'; x.fillRect(0, 0, W, H);

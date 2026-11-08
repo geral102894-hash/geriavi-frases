@@ -70,3 +70,12 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Guarda los secretos: nada de chistes de contar chismes.
 - No le gustaron: "en diciembre engordo…", "si fue difícil y llegaste a noviembre", el gato de planes para Navidad.
 - Le encantan las frases de amigas tipo envío: "Mis amigas y yo no…", estructura de 3 partes con remate.
+
+## Referencias guardadas el 8 de noviembre (para la semana del 16 al 22)
+- @cajadeverdades (IG): letra gruesa vino sobre crema, humor de amigas en una sola frase larga. 113K me gusta, 140K envíos.
+- @helennfp (IG): foto de ambiente con texto serif claro, gratitud a una amiga. 210K me gusta, 27.5K envíos.
+- David Henao (FB): video de carro de noche, humor de dinero contra uno mismo. 150K me gusta, 22.3K compartidos.
+- Tinto y Te (FB): "Me gusta pensar que soy… hasta que…". 39K me gusta.
+- Tarjeta tipo tweet de @tipsdeemprendedores: 1 compartido. No copiar ese formato.
+- Formatos nuevos: f="crema" (render.js) y style="texto" con foto de ambiente sin personas (foto.js).
+- Geri pide también pensamientos motivacionales en su estilo: honestos, reales, de quien trabaja tiempo completo y construye algo propio.
