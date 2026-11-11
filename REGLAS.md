@@ -79,3 +79,7 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Tarjeta tipo tweet de @tipsdeemprendedores: 1 compartido. No copiar ese formato.
 - Formatos nuevos: f="crema" (render.js) y style="texto" con foto de ambiente sin personas (foto.js).
 - Geri pide también pensamientos motivacionales en su estilo: honestos, reales, de quien trabaja tiempo completo y construye algo propio.
+
+## Frecuencia (decisión de Geri, 10 de noviembre de 2026)
+- Hasta el domingo 22 de noviembre: 3 publicaciones al día (10:00, 12:00 y 18:00).
+- Desde el lunes 23 de noviembre: solo 1 publicación al día, a las 12:00 (America/New_York). Esto reemplaza cualquier otra cantidad u horario de este archivo.
