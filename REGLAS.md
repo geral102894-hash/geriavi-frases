@@ -80,6 +80,8 @@ A Geri le gustan las frases que suenan a mensaje real, como: "Amiga, perdón que
 - Formatos nuevos: f="crema" (render.js) y style="texto" con foto de ambiente sin personas (foto.js).
 - Geri pide también pensamientos motivacionales en su estilo: honestos, reales, de quien trabaja tiempo completo y construye algo propio.
 
-## Frecuencia (decisión de Geri, 10 de noviembre de 2026)
-- Hasta el domingo 22 de noviembre: 3 publicaciones al día (10:00, 12:00 y 18:00).
-- Desde el lunes 23 de noviembre: solo 1 publicación al día, a las 12:00 (America/New_York). Esto reemplaza cualquier otra cantidad u horario de este archivo.
+## Frecuencia (decisión de Geri, 14 de noviembre de 2026)
+- Desde el lunes 16 de noviembre de 2026: solo 1 publicación al día, a las 12:00 (America/New_York). Esto reemplaza cualquier otra cantidad u horario de este archivo.
+- La semana del 16 al 22 ya está armada en lotes/2026-11-16 … 2026-11-22.
+- Formato nuevo f="mayus": sans gruesa rosa en mayúsculas sobre vino, para frases de amigas tipo envío.
+- Fotos de ambiente: evita fotos con luces fuertes detrás del texto; Geri no pudo leer una.
